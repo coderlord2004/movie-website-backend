@@ -27,7 +27,7 @@ public class SystemFilm {
     private String title;
 
     @Lob
-    @Column(name = "overview")
+    @Column(name = "overview", columnDefinition = "TEXT")
     private String overview;
 
     @Column(name = "release_date")
